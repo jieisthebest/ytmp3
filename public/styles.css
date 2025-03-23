@@ -1,0 +1,35 @@
+body
+{
+   
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: #202124;
+    color: #E8EAED;
+}
+
+
+body.day-mode {
+    background-color: #E8EAED; 
+    color: #202124; 
+}
+
+h1.day-mode {
+    color: inherit; 
+    background-color: inherit; 
+}
+
+
+button.btn-secondary {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
